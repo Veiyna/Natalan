@@ -3,15 +3,15 @@ using Shared.Network;
 using WorldServer.Game.Entity;
 using WorldServer.Game.Housing;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerLandSetInitialize)]
+public class ServerLandSetInitialize : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerLandSetInitialize)]
-    public class ServerLandSetInitialize : SubPacket
+    public LandSet LandSet;
+    public Player player;
+    public override void Write(BinaryWriter writer)
     {
-        public LandSet LandSet;
-        public Player player;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write((ushort)0); // landId
             writer.Write(this.LandSet.WardId); // wardNum
             writer.Write(this.LandSet.TerritoryId); // territoryTypeId
@@ -44,5 +44,4 @@ namespace WorldServer.Network.Message
                 }
             }
         }
-    }
 }

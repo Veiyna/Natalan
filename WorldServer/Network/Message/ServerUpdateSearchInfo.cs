@@ -3,24 +3,23 @@ using System.IO;
 using Shared.Database.Datacentre.Models;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerUpdateSearchInfo)]
+public class ServerUpdateSearchInfo : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerUpdateSearchInfo)]
-    public class ServerUpdateSearchInfo : SubPacket
+    public BitArray OnlineStatus;
+
+    public CharacterSocialInfo SocialInfo;
+
+    public override void Write(BinaryWriter writer)
     {
-        public BitArray OnlineStatus;
-
-        public CharacterSocialInfo SocialInfo;
-
-        public override void Write(BinaryWriter writer)
-        {
-            writer.Write(this.OnlineStatus.ToArray());
-            writer.Pad(8u);
-            writer.Pad(4u);
-            writer.Pad(1u);
-            writer.Write(this.SocialInfo.SelectRegion);
-            writer.WriteStringLength(this.SocialInfo.SearchComment, 193);
-            writer.Pad(1u);
-        }
+        writer.Write(this.OnlineStatus.ToArray());
+        writer.Pad(8u);
+        writer.Pad(4u);
+        writer.Pad(1u);
+        writer.Write(this.SocialInfo.SelectRegion);
+        writer.WriteStringLength(this.SocialInfo.SearchComment, 193);
+        writer.Pad(1u);
     }
 }

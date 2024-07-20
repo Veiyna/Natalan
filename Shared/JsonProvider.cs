@@ -6,12 +6,12 @@ namespace Shared
 {
     public static class JsonProvider
     {
-        public static T DeserialiseObject<T>(string json)
+        public static T DeserializeObject<T>(string json)
         {
             return JsonConvert.DeserializeObject<T>(json);
         }
 
-        public static string SerialiseObject(object obj)
+        public static string SerializeObject(object obj)
         {
             return JsonConvert.SerializeObject(obj);
         }

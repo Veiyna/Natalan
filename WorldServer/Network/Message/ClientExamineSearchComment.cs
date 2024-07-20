@@ -1,18 +1,17 @@
 ﻿using System.IO;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketClientHandlerId.ClientExamineSearchComment)]
+public class ClientExamineSearchComment : SubPacket
 {
-    [SubPacket(SubPacketClientHandlerId.ClientExamineSearchComment)]
-    public class ClientExamineSearchComment : SubPacket
-    {
 
         
-        public uint ActorId { get; private set; }
+    public uint ActorId { get; private set; }
 
-        public override void Read(BinaryReader reader)
-        {
-            ActorId = reader.ReadUInt32();
-        }
+    public override void Read(BinaryReader reader)
+    {
+        ActorId = reader.ReadUInt32();
     }
 }

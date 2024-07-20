@@ -2,14 +2,14 @@
 using Shared.Network;
 using WorldServer.Game.Housing;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerLandUpdate)]
+public class ServerLandUpdate : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerLandUpdate)]
-    public class ServerLandUpdate : SubPacket
+    public Land Land;
+    public override void Write(BinaryWriter writer)
     {
-        public Land Land;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(this.Land.LandIdent.Marshal());
             writer.Write((byte)Land.HouseSize);
             writer.Write((byte)Land.HouseState);
@@ -26,7 +26,6 @@ namespace WorldServer.Network.Message
             {
                 writer.Write((byte)0);
             }
-        }
-        
     }
+        
 }

@@ -3,18 +3,18 @@ using System.IO;
 using Shared.Database.Datacentre.Models;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerInitSearchInfo)]
+public class ServerInitSearchInfo : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerInitSearchInfo)]
-    public class ServerInitSearchInfo : SubPacket
+    public BitArray OnlineStatus;
+
+
+    public CharacterSocialInfo SocialInfo;
+
+    public override void Write(BinaryWriter writer)
     {
-        public BitArray OnlineStatus;
-
-
-        public CharacterSocialInfo SocialInfo;
-
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(this.OnlineStatus.ToArray());
             writer.Pad(8u);
             writer.Pad(1u);
@@ -22,5 +22,4 @@ namespace WorldServer.Network.Message
             writer.WriteStringLength(this.SocialInfo.SearchComment, 193);
             writer.Pad(5u);
         }
-    }
 }

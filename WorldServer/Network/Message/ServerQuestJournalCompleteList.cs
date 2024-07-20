@@ -2,16 +2,15 @@
 using System.IO;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
-{
-    [SubPacket(SubPacketServerHandlerId.ServerQuestJournalCompleteList)]
-    public class ServerQuestJournalCompleteList : SubPacket
-    {
+namespace WorldServer.Network.Message;
 
-        public BitArray QuestMask;
-        public override void Write(BinaryWriter writer)
-        {
-            writer.Write(this.QuestMask.ToArray());
-        }
+[SubPacket(SubPacketServerHandlerId.ServerQuestJournalCompleteList)]
+public class ServerQuestJournalCompleteList : SubPacket
+{
+
+    public BitArray QuestMask;
+    public override void Write(BinaryWriter writer)
+    {
+        writer.Write(this.QuestMask.ToArray());
     }
 }

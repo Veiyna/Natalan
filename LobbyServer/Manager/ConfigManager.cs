@@ -29,7 +29,7 @@ namespace LobbyServer.Manager
 
         public static void Initialise()
         {
-            Config = JsonProvider.DeserialiseObject<LobbyConfig>(File.ReadAllText(@".\LobbyConfig.json"));
+            Config = JsonProvider.DeserializeObject<LobbyConfig>(File.ReadAllText(@".\LobbyConfig.json"));
         }
     }
 }

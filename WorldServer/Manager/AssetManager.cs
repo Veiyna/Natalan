@@ -6,7 +6,6 @@ using System.Linq;
 using System.Reflection;
 using Shared.Database;
 using Shared.Database.Datacentre;
-using Shared.Game;
 using WorldServer.Game.ChatChannel;
 using WorldServer.Game.ChatChannel.Enums;
 using WorldServer.Game.Entity;
@@ -61,7 +60,7 @@ namespace WorldServer.Manager
             currencyTypes.Add(CurrencyType.TomestonePhilo, 23);
             currencyTypes.Add(CurrencyType.Mgp, 29);
             CurrencyToItem = new ReadOnlyDictionary<CurrencyType, uint>(currencyTypes);
-            ItemToCurrency = new ReadOnlyDictionary<uint, CurrencyType>(currencyTypes.ToDictionary((i) => i.Value, (i) => i.Key));
+            ItemToCurrency = new ReadOnlyDictionary<uint, CurrencyType>(currencyTypes.ToDictionary(i => i.Value, i => i.Key));
         }
         private static void InitialiseContainerTypeAttributes()
         {

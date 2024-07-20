@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using WorldServer.Game.StatusEffect;
 using WorldServer.Game.StatusEffect.Enums;
 
 namespace WorldServer.Data

@@ -190,7 +190,7 @@ private void Scene00003() //SEQ_255: , <No Var>, <No Flag>
       if( result.numOfResults > 0 && result.GetResult( 0 ) == 1 )
       {
         player.FinishQuest( Id, result.GetResult( 1 ) );
-        player.SetMasterUnlock((ushort) UnlockEntry.HuntingLog, true );
+        player.SetMasterUnlock((ushort)UnlockEntry.HuntingLog);
       }
     };
     owner.Event.NewScene( Id, 3, SceneFlags.HIDE_HOTBAR, Callback: callback );

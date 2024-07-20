@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Numerics;
 using MongoDB.Driver;
+using Shared.Database.World.Models;
 using Shared.Game;
 
 namespace Shared.Database.World

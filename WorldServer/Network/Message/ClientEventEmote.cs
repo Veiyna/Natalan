@@ -1,20 +1,19 @@
 ﻿using System.IO;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
-{
-    [SubPacket(SubPacketClientHandlerId.ClientEventEmote)]
-    public class ClientEventEmote : SubPacket
-    {
-        public ulong ActorId { get; private set; }
-        public uint EventId { get; private set; }
-        public ushort EmoteId { get; private set; }
+namespace WorldServer.Network.Message;
 
-        public override void Read(BinaryReader reader)
-        {
-            ActorId = reader.ReadUInt64();
-            EventId = reader.ReadUInt32();
-            EmoteId = reader.ReadUInt16();
-        }
+[SubPacket(SubPacketClientHandlerId.ClientEventEmote)]
+public class ClientEventEmote : SubPacket
+{
+    public ulong ActorId { get; private set; }
+    public uint EventId { get; private set; }
+    public ushort EmoteId { get; private set; }
+
+    public override void Read(BinaryReader reader)
+    {
+        ActorId = reader.ReadUInt64();
+        EventId = reader.ReadUInt32();
+        EmoteId = reader.ReadUInt16();
     }
 }

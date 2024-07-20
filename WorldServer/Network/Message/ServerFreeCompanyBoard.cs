@@ -2,15 +2,15 @@
 using Shared.Database.Datacentre.Models;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
-{
-    [SubPacket(SubPacketServerHandlerId.ServerFreeCompanyBoard)]
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerFreeCompanyBoard)]
     
-    public class ServerFreeCompanyBoard : SubPacket
+public class ServerFreeCompanyBoard : SubPacket
+{
+    public FreeCompany FreeCompany;
+    public override void Write(BinaryWriter writer)
     {
-        public FreeCompany FreeCompany;
-        public override void Write(BinaryWriter writer)
-        {
             if (this.FreeCompany is not null)
             {
                 writer.Write((byte)2);
@@ -24,5 +24,4 @@ namespace WorldServer.Network.Message
 
 
         }
-    }
 }

@@ -36,15 +36,10 @@ public class Action
     public WorldPosition Position;
     public List<Character> AffectedActors = new();
     public ActionScript Script { get; }
-
     public Dictionary<uint, List<Effect>> Effects = new();
-
-
     private ActionInterruptType InterruptType;
     public ActionPrimaryCostType PrimaryCostType;
-
-
-        
+    
     public Action(Character caster, uint actionId, ushort sequence, ulong targetId, WorldPosition sourcePosition, SkillType skillType, uint additionalId)
     {
 
@@ -171,6 +166,7 @@ public class Action
     {
         return PrimaryCostCheck(true);
     }
+    
     public virtual void Execute()
     {
         if( !ConsumeResources() )

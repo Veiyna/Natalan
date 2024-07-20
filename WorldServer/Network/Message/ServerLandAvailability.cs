@@ -2,17 +2,17 @@
 using Shared.Network;
 using WorldServer.Game.Housing.Enums;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerLandAvailability)]
+public class ServerLandAvailability : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerLandAvailability)]
-    public class ServerLandAvailability : SubPacket
+    public LandSellMode SellMode;
+    public LandAvailableTo AvailableTo;
+    public LandLotteryStatus LotteryStatus;
+    public LandLotteryPlayerResult LotteryPlayerResult;
+    public override void Write(BinaryWriter writer)
     {
-        public LandSellMode SellMode;
-        public LandAvailableTo AvailableTo;
-        public LandLotteryStatus LotteryStatus;
-        public LandLotteryPlayerResult LotteryPlayerResult;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write((byte)this.SellMode);
             writer.Write((byte)this.AvailableTo);
             writer.Write((byte)this.LotteryStatus);
@@ -25,5 +25,4 @@ namespace WorldServer.Network.Message
             writer.Write((uint)0);
             writer.Write((uint)0);
         }
-    }
 }

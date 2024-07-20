@@ -2,28 +2,28 @@
 using Shared.Network;
 using WorldServer.Game.Entity.Enums;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerInventoryUpdate)]
+public class ServerInventoryUpdate : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerInventoryUpdate)]
-    public class ServerInventoryUpdate : SubPacket
+    public uint Id;
+    public InventoryAction Action;
+
+    public uint SrcActorId;
+    public ContainerType SrcContainerType;
+    public ushort SrcSlot;
+    public uint SrcStackSize;
+    public uint SrcItemId;
+
+    public uint DstActorId;
+    public ContainerType DstContainerType = ContainerType.None;
+    public ushort DstSlot = ushort.MaxValue;
+    public uint DstStackSize;
+    public uint DstItemId;
+
+    public override void Write(BinaryWriter writer)
     {
-        public uint Id;
-        public InventoryAction Action;
-
-        public uint SrcActorId;
-        public ContainerType SrcContainerType;
-        public ushort SrcSlot;
-        public uint SrcStackSize;
-        public uint SrcItemId;
-
-        public uint DstActorId;
-        public ContainerType DstContainerType = ContainerType.None;
-        public ushort DstSlot = ushort.MaxValue;
-        public uint DstStackSize;
-        public uint DstItemId;
-
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(Id);
             writer.Write((uint)Action + Version.ClientOpcodes[SubPacketClientHandlerId.ClientInventoryAction]);
 
@@ -42,5 +42,4 @@ namespace WorldServer.Network.Message
             writer.Write(DstStackSize);
             writer.Write(DstItemId);
         }
-    }
 }

@@ -4,14 +4,14 @@ using System.IO;
 using Shared.Network;
 
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerLandInfoSign)]
+public class ServerLandInfoSign : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerLandInfoSign)]
-    public class ServerLandInfoSign : SubPacket
+    public Land Land;
+    public override void Write(BinaryWriter writer)
     {
-        public Land Land;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(this.Land.LandIdent.Marshal());
             writer.Write((ulong)0);
             writer.Write((uint)0);
@@ -26,5 +26,4 @@ namespace WorldServer.Network.Message
             writer.Write((byte)0);
             writer.Write((byte)0);
         }
-    }
 }

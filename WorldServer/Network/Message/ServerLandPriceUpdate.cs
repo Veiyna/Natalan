@@ -4,16 +4,15 @@ using System.IO;
 using Shared.Network;
 
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerLandPriceUpdate)]
+public class ServerLandPriceUpdate : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerLandPriceUpdate)]
-    public class ServerLandPriceUpdate : SubPacket
+    public Land Land;
+    public override void Write(BinaryWriter writer)
     {
-        public Land Land;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(this.Land.Price);
             writer.Write((uint)0);
         }
-    }
 }

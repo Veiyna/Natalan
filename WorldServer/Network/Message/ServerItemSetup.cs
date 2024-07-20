@@ -2,22 +2,22 @@
 using Shared.Network;
 using WorldServer.Game.Entity.Enums;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerItemSetup)]
+public class ServerItemSetup : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerItemSetup)]
-    public class ServerItemSetup : SubPacket
-    {
-        public uint Index;
-        public ContainerType ContainerType;
-        public ushort Slot;
-        public uint StackSize;
-        public uint ItemId;
-        public ushort Color;
-        public ushort Color2;
-        public uint Glamour;
+    public uint Index;
+    public ContainerType ContainerType;
+    public ushort Slot;
+    public uint StackSize;
+    public uint ItemId;
+    public ushort Color;
+    public ushort Color2;
+    public uint Glamour;
         
-        public override void Write(BinaryWriter writer)
-        {
+    public override void Write(BinaryWriter writer)
+    {
             writer.Write(Index);
             writer.Write(0u);
             writer.Write((ushort)ContainerType);
@@ -34,5 +34,4 @@ namespace WorldServer.Network.Message
             writer.Write((byte)this.Color2);
             writer.Pad(3u);
         }
-    }
 }

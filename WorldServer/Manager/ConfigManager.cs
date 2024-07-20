@@ -29,7 +29,7 @@ namespace WorldServer.Manager
 
         public static void Initialise()
         {
-            Config = JsonProvider.DeserialiseObject<WorldConfig>(File.ReadAllText(@".\WorldConfig.json"));
+            Config = JsonProvider.DeserializeObject<WorldConfig>(File.ReadAllText(@".\WorldConfig.json"));
         }
     }
 }

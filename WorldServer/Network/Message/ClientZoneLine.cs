@@ -1,17 +1,16 @@
 ﻿using System.IO;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketClientHandlerId.ClientZoneLine)]
+public class ClientZoneLine : SubPacket
 {
-    [SubPacket(SubPacketClientHandlerId.ClientZoneLine)]
-    public class ClientZoneLine : SubPacket
+    public uint ZoneLine { get; private set; }
+
+    public override void Read(BinaryReader reader)
     {
-        public uint ZoneLine { get; private set; }
+        ZoneLine = reader.ReadUInt32();
 
-        public override void Read(BinaryReader reader)
-        {
-            ZoneLine = reader.ReadUInt32();
-
-        }
     }
 }

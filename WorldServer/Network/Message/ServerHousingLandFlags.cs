@@ -2,14 +2,14 @@
 using Shared.Network;
 using WorldServer.Game.Housing;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerHousingLandFlags)]
+public class ServerHousingLandFlags : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerHousingLandFlags)]
-    public class ServerHousingLandFlags : SubPacket
+    public LandFlagSet[] LandFlagSets;
+    public override void Write(BinaryWriter writer)
     {
-        public LandFlagSet[] LandFlagSets;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(this.LandFlagSets[0].Marshal());
             writer.Write((ulong)0);
             writer.Write(this.LandFlagSets[1].Marshal());
@@ -24,5 +24,4 @@ namespace WorldServer.Network.Message
 
         }
 
-    }
 }

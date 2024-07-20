@@ -3,14 +3,14 @@ using Shared.Network;
 using WorldServer.Game.Entity;
 using WorldServer.Game.Entity.Enums;
 
-namespace WorldServer.Network.Message
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerExamine)]
+public class ServerExamine : SubPacket
 {
-    [SubPacket(SubPacketServerHandlerId.ServerExamine)]
-    public class ServerExamine : SubPacket
+    public Player Player { get; set; }
+    public override void Write(BinaryWriter writer)
     {
-        public Player Player { get; set; }
-        public override void Write(BinaryWriter writer)
-        {
             var displayFlags = (byte)0;
             
             if ((Player.Character.EquipDisplayFlags & (byte)EquipDisplayFlags.HideHead) != 0)
@@ -67,5 +67,4 @@ namespace WorldServer.Network.Message
                 writer.Write(displayId);
             writer.Pad(156u);
         }
-    }
 }

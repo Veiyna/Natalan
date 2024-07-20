@@ -4,16 +4,16 @@ using System.Linq;
 using Shared.Database.Datacentre.Models;
 using Shared.Network;
 
-namespace WorldServer.Network.Message
-{
-    [SubPacket(SubPacketServerHandlerId.ServerGlamourDresser)]
+namespace WorldServer.Network.Message;
+
+[SubPacket(SubPacketServerHandlerId.ServerGlamourDresser)]
     
-    public class ServerGlamourDresser : SubPacket
+public class ServerGlamourDresser : SubPacket
+{
+    public uint Sequence;
+    public List<GlamourDresserEntry> Entries;
+    public override void Write(BinaryWriter writer)
     {
-        public uint Sequence;
-        public List<GlamourDresserEntry> Entries;
-        public override void Write(BinaryWriter writer)
-        {
             writer.Write(Sequence);
 
             for (int i = 0; i < 400; i++)
@@ -29,6 +29,5 @@ namespace WorldServer.Network.Message
                     var color = (byte)(entry?.Color ?? 0);
                     writer.Write(color);
             }
-        }
     }
 }
