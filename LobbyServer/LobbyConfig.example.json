@@ -1,0 +1,29 @@
+﻿{
+  "Database": {
+    "Authentication": {
+      "Host": "127.0.0.1",
+      "Port": 27017,
+      "Database": "ffxiv_authentication",
+      "Username": "root",
+      "Password": ""
+    },
+    "DataCentre": {
+      "Host": "127.0.0.1",
+      "Port": 27017,
+      "Database": "ffxiv_datacentre",
+      "Username": "root",
+      "Password": ""
+    },
+    "World": {
+      "Host": "127.0.0.1",
+      "Port": 27017,
+      "Database": "ffxiv_world",
+      "Username": "root",
+      "Password": ""
+    }
+  },
+  "Server": {
+    "AssetPath": "C:\\Program Files (x86)\\SquareEnix\\FINAL FANTASY XIV - A Realm Reborn\\game\\sqpack",
+    "LobbyPort": 54994
+  }
+}

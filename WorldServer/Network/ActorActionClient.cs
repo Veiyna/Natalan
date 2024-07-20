@@ -1,0 +1,117 @@
+﻿namespace WorldServer.Network
+{
+    public enum ActorActionClient : ushort
+    {
+        DrawSheathe = 0x0001,
+        SetTarget = 0x03,
+        DismountReq = 0x65,
+        SpawnCompanionReq = 0x66,
+        DespawnCompanionReq = 0x67,
+        RemoveStatusEffect = 0x68,
+        CastCancel = 0x69,
+        ItemCreate = 0x0075,
+        Return = 0xC8,
+        Teleport = 0xCA,
+        ActorRemove = 0x00D4,
+        Titles = 0x012F,
+        AttributeAllot = 0x0135,
+        ResetEnmity = 0x13F,
+        CameraMode = 0x13A,
+        HuntingLog = 0x0194,
+        Dye = 0x1B1,
+        Glam = 0x1B6,
+        RemoveGlam = 0x1B7,
+        EstateTimers = 0x01AB,
+        ChangeGlasses = 0x1c7,
+        AchievementCriteriaResponse = 0x0202,
+        AchievementComplete = 0x0203,
+        AchievementCompleteChat = 0x0206,
+        EnterTerritoryEventFinished = 0x330,
+        AchievementCriteriaRequest = 0x03E8,
+        AchievementList = 0x03E9,
+        IndivdualTimers = 0x0515,
+        CompanionAction = 0x06A4,
+        CompanionUpdateGear = 0x06A5,
+        CompanionNewAction = 0x06A6,
+        HallOfTheNoviceBegin = 0x0802,
+        Examine = 0x12C,
+        SeenHowTo = 0x132,
+        EmoteReq = 0x1F4,
+        EmoteWithWarp = 0x1F5,
+        EmoteCancel = 0x1F6,
+        PersistentEmoteCancel = 0x1F7,
+        EmoteCancelWithWarp = 0x1F8,
+        PoseChange = 0x1F9,
+        PoseReapply = 0x1FA,
+        PoseCancel = 0x1FB,
+        WorldVisit = 0x13C,
+        Action00C9 = 0xC9,
+        TeleportUnk = 0xC9,
+        TeleportAccept = 0xCB,
+        TeleportReq = 0xCD, // appears when declining a raise
+        TeleportReq2 = 0xCF, // appears when using teleport to nearest aetheryte with Aetheryte Pendulum
+        SetTitleReq = 0x12E,
+        AbandonQuest = 0x320,
+        DirectorInitFinish = 0x321,
+        DirectorSync = 0x328, // unsure what exactly triggers it, starts director when returning to instance though
+        RequestInstanceLeave = 0x333, // df menu button
+        SetEstateLightingLevel = 0x40B, // param1 = light level 0 - 5 maps to UI val 5-0
+        RequestHousingBuildPreset = 0x44C,
+        RequestEstateExteriorRemodel = 0x044D, // param1 = land id
+        RequestEstateInteriorRemodel = 0x44E,
+        RequestEstateHallRemoval = 0x44F,
+        RequestBuildPreset = 0x450, // no idea what this is, it gets sent with BuildPresetHandler and has the plot id in param1
+        RequestLandSignFree = 0x451,
+        RequestLandSignOwned = 0x452,
+        RequestWardLandInfo = 0x453,
+        RequestLandRelinquish = 0x454,
+        RequestLandInventory = 0x0458,
+        RequestHousingItemRemove = 0x0459,
+        RequestEstateRename = 0x45A,
+        RequestEstateEditGreeting = 0x45B,
+        RequestEstateGreeting = 0x45C, // sends HousingEstateGreeting in return
+        RequestEstateEditGuestAccessSettings = 0x45D,
+        UpdateEstateGuestAccess = 0x45E,
+        RequestEstateTagSettings = 0x45F,
+        RequestEstateInventory = 0x0461,
+        RequestHousingItemUI = 0x463,
+        RequestSharedEstateSettings = 0x46F,
+        UpdateEstateLightingLevel = 0x471,
+        HousingItemSelectedInUI = 0x47E,
+        OpenPerformInstrumentUI = 0x71C,
+        RequestChocoboInventory = 0x1BC,
+        SetNewAdventurerOff = 0x834,
+        SetNewAdventurerOn = 0x835,
+        NoviceNetworkJoin = 0x836,
+        NoviceNetworkUnk = 0x83A,
+        NoviceNetworkJoinInvitation = 0x83C,
+        ReturnerStatusOff = 0x838,
+        ReturnerStatusOn = 0x83B,
+        GlamourDresserOpen = 0x92E,
+        GlamourDresserAdd = 0x92F,
+        GlamourDresserRestore = 0x930,
+        GlamourDresserDye = 0x931,
+        GlamourDresserApply = 0x932,
+        GlamourPlateOpen = 0x933,
+        GlamourPlateApply = 0x935,
+        PortraitMenu = 0xC80,
+        IslandSanctuaryModeChange = 0xCB2, 
+        IslandSanctuarySelectItem = 0xCB3, // example 37586 = island pumpkin seeds
+        IslandSanctuarySettings =
+            0xCB4, // param1 - privacy settings 0- no one, 1- friends only 3- friends and fc, 5 - friends and party, 6 - fc and party, 7 - all, param5 unk 501 
+        IslandSanctuaryAgenda = 0xCB5,
+        IslandSanctuaryAgendaUpdate = 0xCB6,
+        IslandSanctuaryEarnings = 0xCB8,
+        IslandSanctuaryEarningsUpdate = 0xCB9,
+        IslandSanctuaryWorkshopSupplyDemand = 0xCBA,
+        IslandSanctuaryAgendaModify = 0xCBB, // item id, season, 0, (1, 244)-when removing
+        IslandSanctuaryAgendaClear = 0xCBC, // 2696, season
+        IslandSanctuarySetRestCycles = 0xCBD,
+        IslandSanctuaryReleaseMinion = 0xCC1, // param1 - minion id, param2 - area
+        IslandSanctuaryRetrieveMinion = 0xCCD,
+        IslandSanctuaryRecallMinions = 0xCCE, // param5 501
+        IslandSanctuaryOrchestrion = 0xCD3,
+        RequestEventBattle = 0x232B,
+        //param1 2 if declined
+    }
+}
