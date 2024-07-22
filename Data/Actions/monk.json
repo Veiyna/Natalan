@@ -1,0 +1,227 @@
+[
+  {
+    "id": 69,
+    "name": "Perfect Balance",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 70,
+    "name": "Rockbreaker",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 130,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 4262,
+    "name": "Form Shift",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7394,
+    "name": "Riddle of Earth",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 100,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7395,
+    "name": "Riddle of Fire",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7396,
+    "name": "Brotherhood",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16473,
+    "name": "Four-point Fury",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 120,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16474,
+    "name": "Enlightenment",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 170,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16475,
+    "name": "Anatman",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16476,
+    "name": "Six-sided Star",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25762,
+    "name": "Thunderclap",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25763,
+    "name": "Howling Fist",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25764,
+    "name": "Masterful Blitz",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25766,
+    "name": "Riddle of Wind",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25767,
+    "name": "Shadow of the Destroyer",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 110,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 863,
+    "name": "Land Waker",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1303,
+    "name": "Inner Release",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1304,
+    "name": "Holmgang",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1305,
+    "name": "Holmgang",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1457,
+    "name": "Shake It Off",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1857,
+    "name": "Nascent Flash",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1858,
+    "name": "Nascent Glint",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1897,
+    "name": "Nascent Chaos",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1992,
+    "name": "Nascent Chaos",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1993,
+    "name": "Shake It Off",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2061,
+    "name": "Nascent Flash",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2062,
+    "name": "Nascent Glint",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2077,
+    "name": "Inner Chaos",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2078,
+    "name": "Chaotic Cyclone",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2108,
+    "name": "Shake It Off (Over Time)",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": 2227,
+    "name": "Nascent Flash",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2624,
+    "name": "Primal Rend Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2677,
+    "name": "Surging Tempest",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2678,
+    "name": "Bloodwhetting",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2679,
+    "name": "Stem the Flow",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2680,
+    "name": "Stem the Tide",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2681,
+    "name": "Equilibrium",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 200
+      }
+    ]
+  },
+  {
+    "id": 3029,
+    "name": "Onslaught",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3030,
+    "name": "Bloodwhetting",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3031,
+    "name": "Stem the Tide",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3032,
+    "name": "●プライマルレンド実行可",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3185,
+    "name": "Thrill of Battle",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3256,
+    "name": "Orogeny",
+    "statusEffectExecute": []
+  }
+]

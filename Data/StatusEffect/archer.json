@@ -1,0 +1,24 @@
+[
+  {
+    "id": 124,
+    "name": "Venomous Bite",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Windbite",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 20
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+﻿{
+  Version: "7.0",
+  GameVersion: "2024.06.12.0000",
+  FFXIVModule: "ffxiv_dx11.exe/48019728/4266b01c2784f4520d3a27dad396b13d1f3fd471",
+  DataSize: {
+    Glasses: 2,
+    HowTo: 36,
+    Minion: 63,
+    Discovery: 504,
+    Mount: 38,
+    Ornament: 7
+  },
+  ClientOpcodes: {
+    ClientNewWorld: 0x218, // 7.0
+    ClientChat: 0x137, // 7.0
+    ClientTerritoryFinalise: 0x2bf, // 7.0
+    ClientLogout: 0x1a2, // 7.0
+    ClientPing: 0x33a, // 7.0
+    ClientContentFinderRequestInfo: 0x0078, // 6.51
+    ClientSocialBlackList: 0x2d3, // 7.0
+    ClientSocialInvite: 0x376, // 7.0
+    ClientSocialInviteResponse: 0x2f3, // 7.0
+    ClientSocialList: 0x191, // 7.0
+    ClientPartyLeave: 0x29a, // 7.0
+    ClientPartyDisband: 0x16f, // 7.0
+    ClientPartyKick: 0xc0, // 7.0
+    ClientPartyPromote: 0x25c, // 7.0
+    ClientActorAction: 0x318, // 7.0
+    ClientActorActionEnvironment: 0x1c4, // 7.0
+    ClientGmCommandInt: 0x282, // 7.0
+    ClientGmCommandString: 0x214, // 7.0
+    ClientPlayerMove: 0x3e4, // 7.0
+    ClientInventoryAction: 0x30e, // 7.0
+    ClientEventYield2: 0x2f9, // 7.0
+    ClientEventYield16: 0x3da, // 7.0
+    ClientEventYieldString8 : 0x326, // 7.0
+    ClientEventYieldString16 : 0x272, // 7.0
+    ClientEventYieldString32 : 0x20a, // 7.0
+    ClientEventGossip: 0x3e0, // 7.0
+    ClientEventEmote: 0x105, // 7.0
+    ClientEventAreaTrigger: 0x336, // 7.0
+    ClientEventOutOfBounds: 0x19b, // 7.0
+    ClientEventTerritory: 0x277, // 7.0
+    ClientEventSceneFinish: 0x187, // 7.0
+    ClientEventSceneFinish2: 0x141, // 7.0
+    ClientEventSceneFinish3: 0x103, // 7.0
+    ClientZoneLine: 0xeb, // 7.0
+    ClientWorldVisit: 0x388, // 7.0
+    ClientExamineFreeCompanyInfo: 0x310, // 7.0
+    ClientExamineSearchComment: 0x37e, // 7.0
+    ClientViewSearchInfo: 0x155, // 7.0
+    ClientInitSearchInfo: 0x175, // 7.0
+    ClientSetSearchInfo: 0x143, // 7.0
+    ClientAdventurerPlateView: 0x267, // 7.0
+    ClientAdventurerPlateEdit: 0xda, // 7.0
+    ClientEquipDisplayFlags: 0x37a, // 7.0
+    ClientFreeCompanyInfo: 0x1d3, // 7.0
+    ClientFreeCompanyDialog: 0x29c, // 7.0
+    ClientFreeCompanySlogan: 0x207, // 7.0
+    ClientFreeCompanyParam: 0xde, // 7.0
+    ClientFreeCompanyBoard: 0x2af, // 7.0
+    ClientFreeCompanyActivity: 0x11b, // 7.0
+    ClientSkill: 0x345, // 7.0
+    ClientSkillAoE: 0x342, // 7.0
+    ClientCFRegisterDuty: 0x270, // 7.0
+    ClientCFCancel: 0x18e, // 6.58h2
+    ClientCFCommence: 0x2e5, // 7.0
+    ClientUnk1: 0x15e, // 7.0
+    ClientPerformNote: 0xf1, // 7.0
+    ClientNoviceNetworkRequestJoin: 0x2e8, // 7.0
+    ClientChannelJoin: 0x3c4, // 7.0
+    ClientDye: 0x8f, // 7.0
+    ClientHousingBuildPreset: 0x13a, // 7.0
+  },
+  ServerOpcodes: {
+    ServerNewWorld: 0x2bf, // 7.0
+    ServerChat: 0xe5, // 7.0
+    ServerLogout: 0x269, // 7.0
+    ServerPing: 0x19e, // 7.0
+    ServerSocialInviteResponse: 0x197, // 7.0
+    ServerSocialMessage: 0x19d, // 7.0
+    ServerSocialInviteUpdate: 0x12b, // 7.0
+    ServerSocialList: 0x6d, // 7.0
+    ServerMessage: 0x310, // 7.0
+    ServerMessage2: 0xb2, // 7.0
+    ServerSocialAction: 0x193, // 7.0
+    ServerSocialBlacklist: 0x2c4, // 7.0
+    ServerPlayerSpawn: 0x338, // 7.0
+    ServerNpcSpawn: 0x300, // 7.0
+    ServerObjectSpawn: 0x2f2, // 7.0
+    ServerPlayerStats: 0x3c6, // 7.0
+    ServerActorDespawn: 0x229, // 7.0
+    ServerActorMove: 0x346, // 7.0
+    ServerActorSetPos: 0x32b, // 7.0
+    ServerActorCast: 0xf1, // 7.0
+    ServerParty: 0x3a2, // 7.0
+    ServerPlayerSetup: 0x121, // 7.0
+    ServerPlayerStateFlags: 0x3c1, // 7.0
+    ServerClassSetup: 0x29d, // 7.0
+    ServerActorAppearanceUpdate: 0x317, // 7.0
+    ServerItemSetup: 0x305, // 7.0
+    ServerContainerSetup: 0x14b, // 7.0
+    ServerInventoryAction: 0x2c9, // 7.0
+    ServerInventoryUpdateFinish: 0x1c3, // 7.0
+    ServerInventoryUpdate: 0x8f, // 7.0
+    ServerItemUpdate: 0xd9, // 7.0
+    ServerActorAction: 0x187, // 7.0
+    ServerActorActionSelf: 0x141, // 7.0
+    ServerActorActionTarget: 0x103, // 7.0
+    ServerEventSceneStart: 0x20e, // 7.0
+    ServerEventSceneStart255: 0x82, // 7.0
+    ServerEventStart: 0x36b, // 7.0
+    ServerEventStop: 0xfd, // 7.0
+    ServerEventYield: 0x222, // 7.0
+    ServerEventYield32: 0x2d2, // 7.0
+    ServerQuestJournalActiveList: 0x374, // 7.0
+    ServerQuestJournalCompleteList: 0x283, // 7.0
+    ServerTerritorySetup: 0x3dd, // 7.0
+    ServerAchievementList: 0x89, // 7.0
+    ServerContentFinderList: 0x01CF, // 6.51
+    ServerUnknown0207: 0xe2, // 7.0
+    ServerUnknown0209: 0x25f, // 7.0
+    ServerTerritoryPending: 0x307, // 7.0
+    ServerWorldVisit: 0x266, // 7.0
+    ServerTitleList: 0x125, // 7.0
+    ServerExamine: 0x28a, // 7.0
+    ServerExamineFreeCompanyInfo: 0xeb, // 7.0
+    ServerExamineSearchComment: 0x1f3, // 7.0
+    ServerSetOnlineStatus: 0x25d, // 7.0
+    ServerQuestMessage: 0x128, // 7.0
+    ServerQuestUpdate: 0x397, // 7.0
+    ServerQuestTracker: 0x9e, // 7.0
+    ServerQuestFinish: 0x2a8, // 7.0
+    ServerMSQTrackerComplete: 0x86, // 7.0
+    ServerMSQTrackerProgress: 0x278, // 7.0
+    ServerViewSearchInfo: 0x35a, // 7.0
+    ServerInitSearchInfo: 0xd4, // 7.0
+    ServerUpdateSearchInfo: 0x31d, // 7.0
+    ServerAdventurerPlateView: 0xea, // 7.0
+    ServerEquipDisplayFlags: 0x2a4, // 7.0
+    ServerLogMessage: 0x34d, // 7.0
+    ServerSystemLogMessage: 0x2f7, // 7.0
+    ServerErrorMessage: 0x219, // 7.0
+    ServerLootMessage: 0xa4, // 7.0
+    ServerShopMessage: 0x1a6, // 7.0
+    ServerUpdateHpMpTp: 0x7e, // 7.0
+    ServerUpdateClassInfo: 0x31b, // 7.0
+    ServerMount: 0xb3, // 7.0
+    ServerEffect: 0x369, // 7.0
+    ServerAoeEffect8: 0x1a4, // 7.0
+    ServerEffectResult: 0x1f9, // 7.0
+    ServerStatusEffectList: 0x2eb, // 7.0
+    ServerJobGauge: 0x35b, // 7.0
+    ServerFreeCompanyInfo: 0xd6, // 7.0
+    ServerFreeCompanyDialog: 0x318, // 7.0
+    ServerFreeCompanySlogan: 0x214, // 7.0
+    ServerFreeCompanyParam: 0x1d5, // 7.0
+    ServerFreeCompanyBoard: 0x2b7, // 7.0
+    ServerFreeCompanyActivity: 0x345, // 7.0
+    ServerCFRegister: 0x157, // 7.0
+    ServerCFCancel: 0x1a2, // 7.0
+    ServerContentFinderMemberStatus: 0x250, // 7.0
+    ServerContentFinderNotify: 0x181, // 7.0
+    ServerCharaVisualEffect: 0x232, // 7.0
+    ServerContentFinderPlayerInNeed: 0x245, // 7.0
+    ServerContentFinderDutyInfo: 0x25d, // 7.0
+    ServerContentFinderRegister: 0x143, // 7.0
+    ServerUnk1: 0x33c, // 7.0
+    ServerPerformNote: 0x362, // 7.0
+    ServerLandSetInitialize: 0x3bf, // 7.0
+    ServerLandSetMap: 0x36f, // 7.0
+    ServerLandAvailability: 0x339, // 7.0
+    ServerLandPriceUpdate: 0x280, // 7.0
+    ServerLandUpdate: 0x36a, // 7.0
+    ServerLandInfoSign: 0x190, // 7.0
+    ServerHousingObjectInitialize: 0x30c, // 7.0
+    ServerHousingUpdateLandFlagsSlot: 0x32e, // 7.0
+    ServerHousingLandFlags: 0x2ec, // 7.0
+    ServerHateList: 0x3d2, // 7.0
+    ServerHateRank: 0x3a5, // 7.0
+    ServerDirectorVars: 0xd7, // 7.0
+    ServerGCAffiliation: 0x20a, // 7.0
+    ServerCompanionName: 0x113, // 7.0
+    ServerGlamourDresser: 0x184, // 7.0
+    ServerGlamourPlate: 0x2c2, // 7.0
+    ServerNoviceNetworkId: 0x342, // 7.0
+    ServerNoviceNetworkJoined: 0x251, // 7.0
+    ServerHousingUnknown: 0xcf, // 7.0
+  }
+}

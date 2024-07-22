@@ -1,0 +1,775 @@
+[
+  {
+    "id": 34606,
+    "name": "Steel Fangs",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 200,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34607,
+    "name": "Dread Fangs",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3667,
+        "name": "Noxious Gnash",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34608,
+    "name": "Hunter's Sting",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 260,
+      "combo": 260,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3668,
+        "name": "Hunter's Instinct",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34609,
+    "name": "Swiftskin's Sting",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 260,
+      "combo": 260,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3669,
+        "name": "Swiftscaled",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34610,
+    "name": "Flanksting Strike",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 300,
+      "positional": 360,
+      "positionalCombo": 360,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3647,
+        "name": "Hindstung Venom",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34611,
+    "name": "Flanksbane Fang",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 300,
+      "positional": 360,
+      "positionalCombo": 360,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+    ]
+  },
+  {
+    "id": 34612,
+    "name": "Hindsting Strike",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 300,
+      "positional": 360,
+      "positionalCombo": 360,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34613,
+    "name": "Hindsbane Fang",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 300,
+      "positional": 360,
+      "positionalCombo": 360,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+
+      {
+        "id": 3648,
+        "name": "Hindsbane Venom",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34614,
+    "name": "Steel Maw",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34615,
+    "name": "Dread Maw",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 80,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34616,
+    "name": "Hunter's Bite",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 120,
+      "combo": 120,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 4120,
+        "name": "Hunter's Instinct",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34617,
+    "name": "Swiftskin's Bite",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 120,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3669,
+        "name": "Swiftscaled",
+        "duration": 40000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34618,
+    "name": "Jagged Maw",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 140,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34619,
+    "name": "Bloodied Maw",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 140,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34620,
+    "name": "Dreadwinder",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 450,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3667,
+        "name": "Noxious Gnash",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 34621,
+    "name": "Hunter's Coil",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 500,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34622,
+    "name": "Swiftskin's Coil",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 500,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34623,
+    "name": "Pit of Dread",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 200,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3667,
+        "name": "Noxious Gnash",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 34624,
+    "name": "Hunter's Den",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34625,
+    "name": "Swiftskin's Den",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34626,
+    "name": "Reawaken",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 700,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34627,
+    "name": "First Generation",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34628,
+    "name": "Second Generation",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34629,
+    "name": "Third Generation",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34630,
+    "name": "Fourth Generation",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34631,
+    "name": "Ouroboros",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34632,
+    "name": "Writhing Snap",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 200,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34633,
+    "name": "Uncoiled Fury",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 600,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34634,
+    "name": "Death Rattle",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34635,
+    "name": "Last Lash",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34636,
+    "name": "Twinfang Bite",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34637,
+    "name": "Twinblood Bite",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34638,
+    "name": "Twinfang Thresh",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 50,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34639,
+    "name": "Twinblood Thresh",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 50,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34640,
+    "name": "First Legacy",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34641,
+    "name": "Second Legacy",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34642,
+    "name": "Third Legacy",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34643,
+    "name": "Fourth Legacy",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34644,
+    "name": "Uncoiled Twinfang",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34645,
+    "name": "Uncoiled Twinblood",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34646,
+    "name": "Slither",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34647,
+    "name": "Serpent's Ire",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35920,
+    "name": "Serpent's Tail",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35921,
+    "name": "Twinfang",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35922,
+    "name": "Twinblood",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "id": 141,
+    "name": "Battle Voice",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 866,
+    "name": "The Warden's Paean",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1187,
+    "name": "Troubadour's Ballad",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1188,
+    "name": "Critical Up",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1189,
+    "name": "Troubadour's Paeon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1190,
+    "name": "Troubadour's Minuet",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1202,
+    "name": "Nature's Minne",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1321,
+    "name": "Caustic Bite",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1322,
+    "name": "Stormbite",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1200,
+    "name": "Caustic Bite",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 1201,
+    "name": "Stormbite",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 1407,
+    "name": "Barrage",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1449,
+    "name": "Troubadour's Minuet",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1450,
+    "name": "Troubadour's Paeon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1932,
+    "name": "Army's Muse",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1933,
+    "name": "Army's Ethos",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1934,
+    "name": "Troubadour",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2009,
+    "name": "Wanderer's Minuet",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2017,
+    "name": "Repelling Shot",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2178,
+    "name": "Warden's Grace",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2214,
+    "name": "Army's Paeon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2215,
+    "name": "The Wanderer's Minuet",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2216,
+    "name": "The Wanderer's Minuet",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2217,
+    "name": "Mage's Ballad",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2218,
+    "name": "Army's Paeon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2692,
+    "name": "Blast Arrow Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2722,
+    "name": "Radiant Finale",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2964,
+    "name": "Radiant Finale",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3002,
+    "name": "Shadowbite Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3137,
+    "name": "Repertoire",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3138,
+    "name": "Frontliner's March",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3139,
+    "name": "Frontline March",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3140,
+    "name": "Frontliner's Forte",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3141,
+    "name": "Frontline Forte",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3142,
+    "name": "Blast Arrow Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3143,
+    "name": "The Warden's Paean",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3144,
+    "name": "Final Fantasia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3145,
+    "name": "Heroes' Fantasia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3146,
+    "name": "英雄のファンタジア［戦］",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3147,
+    "name": "英雄のファンタジア［魔］",
+    "statusEffectExecute": []
+  }
+]

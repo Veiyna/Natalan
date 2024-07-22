@@ -1,0 +1,137 @@
+[
+  {
+    "id": 53,
+    "name": "Bootshine",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 180,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 54,
+    "name": "True Strike",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 270,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 56,
+    "name": "Snap Punch",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 220,
+      "combo": 0,
+      "positional": 280,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 61,
+    "name": "Twin Snakes",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 250,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 62,
+    "name": "Arm of the Destroyer",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 65,
+    "name": "Mantra",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 66,
+    "name": "Demolish",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 40,
+      "combo": 0,
+      "positional": 100,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 74,
+    "name": "Dragon Kick",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 290,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 3546,
+    "name": "Meditation",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

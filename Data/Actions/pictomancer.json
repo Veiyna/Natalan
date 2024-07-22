@@ -1,0 +1,302 @@
+[
+  {
+    "id": 34650,
+    "name": "Fire in Red",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34653,
+    "name": "Blizzard in Cyan",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34656,
+    "name": "Fire II in Red",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34659,
+    "name": "Blizzard II in Cyan",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34662,
+    "name": "Holy in White",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34663,
+    "name": "Comet in Black",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34676,
+    "name": "Mog of the Ages",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34678,
+    "name": "Hammer Stamp",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34681,
+    "name": "Star Prism",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 400,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34683,
+    "name": "Subtractive Palette",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34684,
+    "name": "Smudge",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34685,
+    "name": "Tempera Coat",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34686,
+    "name": "Tempera Grassa",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34688,
+    "name": "Rainbow Drip",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34689,
+    "name": "Creature Motif",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34690,
+    "name": "Weapon Motif",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 34691,
+    "name": "Landscape Motif",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35347,
+    "name": "Living Muse",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35348,
+    "name": "Steel Muse",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 35349,
+    "name": "Scenic Muse",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": 7531,
+    "name": "Rampart",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1191,
+        "name": "Rampart",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 7535,
+    "name": "Reprisal",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1193,
+        "name": "Reprisal",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 7557,
+    "name": "Peloton",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1199,
+        "name": "Peloton",
+        "duration": 30000,
+        "param": 20,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 7548,
+    "name": "Arm's Length",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1209,
+        "name": "Arm's Length",
+        "duration": 6000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 7541,
+    "name": "Second Wind",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 500,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

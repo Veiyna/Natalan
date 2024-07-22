@@ -1,0 +1,483 @@
+[
+  {
+    "id": 24373,
+    "name": "Slice",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 320,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24374,
+    "name": "Waxing Slice",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 160,
+      "combo": 400,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24375,
+    "name": "Infernal Slice",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 180,
+      "combo": 500,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24376,
+    "name": "Spinning Scythe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24377,
+    "name": "Nightmare Scythe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 120,
+      "combo": 180,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24378,
+    "name": "Shadow of Death",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2586,
+        "name": "Death's Design",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24379,
+    "name": "Whorl of Death",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2586,
+        "name": "Death's Design",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 24380,
+    "name": "Soul Slice",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 460,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24381,
+    "name": "Soul Scythe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 180,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24382,
+    "name": "Gibbet",
+    "positionalDirection": 1,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 460,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24383,
+    "name": "Gallows",
+    "positionalDirection": 2,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 460,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24384,
+    "name": "Guillotine",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 200,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24385,
+    "name": "Plentiful Harvest",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 720,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24386,
+    "name": "Harpe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24387,
+    "name": "Soulsow",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2594,
+        "name": "Soulsow",
+        "duration": 0,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24388,
+    "name": "Harvest Moon",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 600,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24389,
+    "name": "Blood Stalk",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 340,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24392,
+    "name": "Grim Swathe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24393,
+    "name": "Gluttony",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 520,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24394,
+    "name": "Enshroud",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24398,
+    "name": "Communio",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24401,
+    "name": "Hell's Ingress",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2845,
+        "name": "Enhanced Harpe",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2595,
+        "name": "Threshold",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24402,
+    "name": "Hell's Egress",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2845,
+        "name": "Enhanced Harpe",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2595,
+        "name": "Threshold",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24404,
+    "name": "Arcane Crest",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2597,
+        "name": "Crest of Time Borrowed",
+        "duration": 5000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24405,
+    "name": "Arcane Circle",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2599,
+        "name": "Arcane Circle",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2972,
+        "name": "Bloodsown Circle",
+        "duration": 6000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2600,
+        "name": "Circle of Sacrifice",
+        "duration": 5000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  }
+]

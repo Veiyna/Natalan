@@ -1,0 +1,728 @@
+[
+  {
+    "id": 24283,
+    "name": "Dosis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 300,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24284,
+    "name": "Diagnosis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 450,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24285,
+    "name": "Kardia",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2605,
+        "name": "Kardion",
+        "duration": 0,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2604,
+        "name": "Kardia",
+        "duration": 0,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 24286,
+    "name": "Prognosis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 300,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24287,
+    "name": "Egeiro",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 148,
+        "name": "Raise",
+        "duration": 60000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24288,
+    "name": "Physis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2617,
+        "name": "Physis",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24289,
+    "name": "Phlegma",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24290,
+    "name": "Eukrasia",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2606,
+        "name": "Eukrasia",
+        "duration": 0,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24291,
+    "name": "Eukrasian Diagnosis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 300,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2607,
+        "name": "Eukrasian Diagnosis",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24292,
+    "name": "Eukrasian Prognosis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 100,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2609,
+        "name": "Eukrasian Prognosis",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24294,
+    "name": "Soteria",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2610,
+        "name": "Soteria",
+        "duration": 15000,
+        "param": 4,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24295,
+    "name": "Icarus",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24296,
+    "name": "Druochole",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 600,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24297,
+    "name": "Dyskrasia",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 160,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24298,
+    "name": "Kerachole",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2618,
+        "name": "Kerachole",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2938,
+        "name": "Kerakeia",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24299,
+    "name": "Ixochole",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 400,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24300,
+    "name": "Zoe",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2611,
+        "name": "Zoe",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24301,
+    "name": "Pepsis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24302,
+    "name": "Physis II",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2620,
+        "name": "Physis II",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2621,
+        "name": "Autophysis",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24303,
+    "name": "Taurochole",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 700,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2619,
+        "name": "Taurochole",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24304,
+    "name": "Toxikon",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24305,
+    "name": "Haima",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3110,
+        "name": "Haima",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 3111,
+        "name": "Haimatinon",
+        "duration": 15000,
+        "param": 5,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24306,
+    "name": "Dosis II",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 320,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24307,
+    "name": "Phlegma II",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 490,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24309,
+    "name": "Rhizomata",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24310,
+    "name": "Holos",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 300,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 3003,
+        "name": "Holos",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 3365,
+        "name": "Holosakos",
+        "duration": 20000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24311,
+    "name": "Panhaima",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2613,
+        "name": "Panhaima",
+        "duration": 15000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 2643,
+        "name": "Panhaimatinon",
+        "duration": 15000,
+        "param": 5,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24312,
+    "name": "Dosis III",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 330,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24313,
+    "name": "Phlegma III",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 600,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24314,
+    "name": "Eukrasian Dosis III",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2616,
+        "name": "Eukrasian Dosis III",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24315,
+    "name": "Dyskrasia II",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 170,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24316,
+    "name": "Toxikon II",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 330,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 24317,
+    "name": "Krasis",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2622,
+        "name": "Krasis",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 24318,
+    "name": "Pneuma",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 330,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 600,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

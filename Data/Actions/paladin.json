@@ -1,0 +1,376 @@
+[
+  {
+    "id": 22,
+    "name": "Bulwark",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 27,
+    "name": "Cover",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 29,
+    "name": "Spirits Within",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 270,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 30,
+    "name": "Hallowed Ground",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 82,
+        "name": "Hallowed Ground",
+        "duration": 10000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 3538,
+    "name": "Goring Blade",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 700,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 3539,
+    "name": "Royal Authority",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 140,
+      "combo": 400,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2673,
+        "name": "Divine Might",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true,
+          "Combo": true
+        }
+      },
+      {
+        "id": 1902,
+        "name": "Sword Oath",
+        "duration": 30000,
+        "param": 3,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true,
+          "Combo": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 3540,
+    "name": "Divine Veil",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 400,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1362,
+        "name": "Divine Veil",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 3541,
+    "name": "Clemency",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 1000,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 3542,
+    "name": "Sheltron",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7382,
+    "name": "Intervention",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 250,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7383,
+    "name": "Requiescat",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 320,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7384,
+    "name": "Holy Spirit",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 350,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 400,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 7385,
+    "name": "Passage of Arms",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 1175,
+        "name": "Passage of Arms",
+        "duration": 18000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      },
+      {
+        "id": 1901,
+        "name": "Enshielded",
+        "duration": 18000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 16457,
+    "name": "Prominence",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 170,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": [
+      {
+        "id": 2673,
+        "name": "Divine Might",
+        "duration": 30000,
+        "param": 0,
+        "flags": {
+          "ApplyToSelf": true,
+          "OnSource" : true,
+          "Combo": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 16458,
+    "name": "Holy Circle",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 100,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 400,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16459,
+    "name": "Confiteor",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 420,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 400,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16460,
+    "name": "Atonement",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 400,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 16461,
+    "name": "Intervene",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 150,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25746,
+    "name": "Holy Sheltron",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 0,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 250,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  },
+  {
+    "id": 25747,
+    "name": "Expiacion",
+    "positionalDirection": 0,
+    "potency": {
+      "base": 450,
+      "combo": 0,
+      "positional": 0,
+      "positionalCombo": 0,
+      "heal": 0,
+      "selfHeal": 0,
+      "mpGainPercentage": 0
+    },
+    "statuses": []
+  }
+]

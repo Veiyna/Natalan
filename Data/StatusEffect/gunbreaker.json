@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1831,
+    "name": "No Mercy",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1832,
+    "name": "Camouflage",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1833,
+    "name": "Royal Guard",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1834,
+    "name": "Nebula",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1835,
+    "name": "Aurora",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 200
+      }
+    ]
+  },
+  {
+    "id": 1836,
+    "name": "Superbolide",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1837,
+    "name": "Sonic Break",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 60
+      }
+    ]
+  },
+  {
+    "id": 1838,
+    "name": "Bow Shock",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 60
+      }
+    ]
+  },
+  {
+    "id": 1839,
+    "name": "Heart of Light",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1840,
+    "name": "Heart of Stone",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1842,
+    "name": "Ready to Rip",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1843,
+    "name": "Ready to Tear",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1844,
+    "name": "Ready to Gouge",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1898,
+    "name": "Brutal Shell",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1931,
+    "name": "Gunmetal Soul",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1997,
+    "name": "Brutal Shell",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2002,
+    "name": "Ready to Rip",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2003,
+    "name": "Ready to Tear",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2004,
+    "name": "Ready to Gouge",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2063,
+    "name": "Draw Power",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2064,
+    "name": "Draw Fortitude",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2065,
+    "name": "Aurora",
+    "statusEffectExecute": [
+      
+    ]
+  },
+  {
+    "id": 2066,
+    "name": "Drained Power",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2067,
+    "name": "Drained Fortitude",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2180,
+    "name": "Fast Draw",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2392,
+    "name": "Lightning Shot",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2683,
+    "name": "Heart of Corundum",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2684,
+    "name": "Clarity of Corundum",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2685,
+    "name": "Catharsis of Corundum",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2686,
+    "name": "Ready to Blast",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3041,
+    "name": "Ready to Blast",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3042,
+    "name": "No Mercy",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3043,
+    "name": "Powder Barrel",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3044,
+    "name": "Junction Tank",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3045,
+    "name": "Junction DPS",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3046,
+    "name": "Junction Healer",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3047,
+    "name": "Hypervelocity",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3048,
+    "name": "Jugular Rip",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3049,
+    "name": "Abdomen Tear",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3050,
+    "name": "Eye Gouge",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3051,
+    "name": "Nebula",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3052,
+    "name": "Relentless Rush",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3053,
+    "name": "Relentless Shrapnel",
+    "statusEffectExecute": []
+  }
+]

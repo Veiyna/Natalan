@@ -1,0 +1,295 @@
+[
+  {
+    "id": 2604,
+    "name": "Kardia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2605,
+    "name": "Kardion",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2606,
+    "name": "Eukrasia",
+    "statusEffectExecute": [
+      {
+        "type": 18,
+        "trigger": 3,
+        "value": 46
+      }
+    ]
+  },
+  {
+    "id": 2607,
+    "name": "Eukrasian Diagnosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2608,
+    "name": "Differential Diagnosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2609,
+    "name": "Eukrasian Prognosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2610,
+    "name": "Soteria",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2611,
+    "name": "Zoe",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2612,
+    "name": "Haima",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2613,
+    "name": "Panhaima",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2614,
+    "name": "Eukrasian Dosis",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": 2615,
+    "name": "Eukrasian Dosis II",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 60
+      }
+    ]
+  },
+  {
+    "id": 2616,
+    "name": "Eukrasian Dosis III",
+    "statusEffectExecute": [
+      {
+        "type": 2,
+        "trigger": 4,
+        "value": 75
+      }
+    ]
+  },
+  {
+    "id": 2617,
+    "name": "Physis",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": 2618,
+    "name": "Kerachole",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2619,
+    "name": "Taurochole",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2620,
+    "name": "Physis II",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 130
+      }
+    ]
+  },
+  {
+    "id": 2621,
+    "name": "Autophysis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2622,
+    "name": "Krasis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2623,
+    "name": "Pneuma",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2642,
+    "name": "Haimatinon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2643,
+    "name": "Panhaimatinon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2650,
+    "name": "Leveilleur Dosis III",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2864,
+    "name": "Eukrasian Dosis III",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2865,
+    "name": "Eukrasian Diagnosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2866,
+    "name": "Eukrasian Prognosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2867,
+    "name": "Eukrasia",
+    "statusEffectExecute": [
+      {
+        "type": 18,
+        "trigger": 3,
+        "value": 46
+      }
+    ]
+  },
+  {
+    "id": 2868,
+    "name": "Pneuma",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2869,
+    "name": "Haima",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2870,
+    "name": "Haimatinon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2871,
+    "name": "Kardia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2872,
+    "name": "Kardion",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2938,
+    "name": "Kerakeia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3003,
+    "name": "Holos",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3107,
+    "name": "Eukrasia",
+    "statusEffectExecute": [
+      {
+        "type": 18,
+        "trigger": 1,
+        "value": 46
+      }
+    ]
+  },
+  {
+    "id": 3108,
+    "name": "Eukrasian Dosis III",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3109,
+    "name": "Eukrasian Diagnosis",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3110,
+    "name": "Haima",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3111,
+    "name": "Haimatinon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3112,
+    "name": "●ゾーエ",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3113,
+    "name": "Toxikon",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3114,
+    "name": "●トキシコンII",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3115,
+    "name": "Addersting",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3116,
+    "name": "カルディア",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3117,
+    "name": "カルディア[被]",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3118,
+    "name": "Mesotes",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3119,
+    "name": "Mesotes",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3120,
+    "name": "Lype",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3365,
+    "name": "Holosakos",
+    "statusEffectExecute": []
+  }
+]

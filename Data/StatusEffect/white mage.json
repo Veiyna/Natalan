@@ -1,0 +1,104 @@
+[
+  {
+    "id": 150,
+    "name": "Medica II",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 150
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Regen",
+    "statusEffectExecute": [
+      {
+        "type": 1,
+        "trigger": 4,
+        "value": 250
+      }
+    ]
+  },
+  {
+    "id": 1218,
+    "name": "Divine Benison",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1219,
+    "name": "Confession",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1330,
+    "name": "Regen",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1871,
+    "name": "Dia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1872,
+    "name": "Temperance",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1873,
+    "name": "Temperance",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2035,
+    "name": "Dia",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2036,
+    "name": "Afflatus Solace",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2037,
+    "name": "Temperance",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2038,
+    "name": "Temperance",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2708,
+    "name": "Aquaveil",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2709,
+    "name": "Liturgy of the Bell",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3083,
+    "name": "Cure III Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3084,
+    "name": "●女神の加護",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3085,
+    "name": "Miracle of Nature",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3086,
+    "name": "Aquaveil",
+    "statusEffectExecute": []
+  }
+]

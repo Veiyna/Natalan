@@ -1,0 +1,92 @@
+[
+  {
+    "id": 864,
+    "name": "Dark Force",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1178,
+    "name": "Blackest Night",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1306,
+    "name": "Sole Survivor",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1308,
+    "name": "Blackest Night",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1972,
+    "name": "Delirium",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1996,
+    "name": "Delirium",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2102,
+    "name": "Edge of Shadow",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2170,
+    "name": "Flood of Shadow",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2171,
+    "name": "Dark Missionary",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2682,
+    "name": "Oblation",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3033,
+    "name": "Blackblood",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3034,
+    "name": "Dark Arts",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3035,
+    "name": "●プランジカット",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3036,
+    "name": "Salted Earth",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3037,
+    "name": "Salted Earth",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3038,
+    "name": "Salt's Bane",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3039,
+    "name": "Undead Redemption",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3040,
+    "name": "●ブラッドウェポン",
+    "statusEffectExecute": []
+  }
+]

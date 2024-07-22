@@ -1,0 +1,177 @@
+[
+  {
+    "id": 81,
+    "name": "Covered",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 196,
+    "name": "Last Bastion",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 727,
+    "name": "Divine Veil",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1174,
+    "name": "Intervention",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1176,
+    "name": "Arms Up",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1300,
+    "name": "Cover",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1301,
+    "name": "Covered",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1302,
+    "name": "Hallowed Ground",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1362,
+    "name": "Divine Veil",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1368,
+    "name": "Requiescat",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1369,
+    "name": "Requiescat",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1856,
+    "name": "Sheltron",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1901,
+    "name": "Enshielded",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1902,
+    "name": "Sword Oath",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 1991,
+    "name": "Sword Oath",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2020,
+    "name": "Intervention",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2076,
+    "name": "Confiteor",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2168,
+    "name": "Divine Veil",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2169,
+    "name": "Divine Veil",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2179,
+    "name": "Testudo",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2413,
+    "name": "Covered",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2673,
+    "name": "Divine Might",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2674,
+    "name": "Holy Sheltron",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2675,
+    "name": "Knight's Resolve",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2676,
+    "name": "Knight's Benediction",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 2721,
+    "name": "Blade of Valor",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3019,
+    "name": "Confiteor Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3025,
+    "name": "Sacred Claim",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3026,
+    "name": "Holy Sheltron",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3027,
+    "name": "●ホーリー・シェルトロン：追撃",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3028,
+    "name": "●コンフィテオル実行可",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3188,
+    "name": "Knight's Resolve",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3210,
+    "name": "Phalanx",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3250,
+    "name": "Blade of Faith Ready",
+    "statusEffectExecute": []
+  },
+  {
+    "id": 3546,
+    "name": "Radiant Veil",
+    "statusEffectExecute": []
+  }
+]
